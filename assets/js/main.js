@@ -62,7 +62,7 @@
     let offset = header.offsetHeight
 
     if (!header.classList.contains('header-scrolled')) {
-      offset -= 20
+      offset -= 0
     }
 
     let elementPos = select(el).offsetTop
